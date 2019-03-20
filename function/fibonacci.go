@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//斐波那契数列
+//斐波那契数列 1 1 2 3 5 8 13 21 34 55 89
 func main() {
 	result := 0
 	for i := 0; i <= 10; i++ {
