@@ -6,11 +6,10 @@ import (
 )
 
 func main() {
-	for i := 0; i < 1000; i++ {
+	for i := 0; i < 100; i++ {
 		go func(ii int) {
 			for {
-				fmt.Printf("Hello from "+
-					"goroutine %d\n", i)
+				fmt.Printf("Hello from goroutine %d\n", ii)
 			}
 		}(i)
 	}
